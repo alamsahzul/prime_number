@@ -1,20 +1,20 @@
 function indexPrime(param1){
-  function cekPrima(angka) {
+  function cekPrima(number) {
 
     var isPrime = true;
-    var akar = Math.sqrt(angka);
+    var akar = Math.sqrt(number);
 
-    if(angka<2){
+    if(number<2){
       return false
     }
-    else if(angka==2){
+    else if(number==2){
       return true;
     }
-    else if(angka%2==0) {
+    else if(number%2==0) {
       return false;
     }
 
-    else if(angka%akar==0) {
+    else if(number%akar==0) {
       return false;
     }
 
