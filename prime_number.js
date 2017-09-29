@@ -30,15 +30,15 @@ function indexPrime(param1){
   }
 
   var counter = 0;
-  var bilanganPrima = 2;
+  var prime_number = 2;
   // result = [];
   while (counter !== param1) {
-    if(cekPrima(bilanganPrima)){
+    if(cekPrima(prime_number)){
       counter++
     }
-    bilanganPrima++;
+    prime_number++;
   }
-  return bilanganPrima - 1;
+  return prime_number - 1;
 }
 console.log(indexPrime(4)) //result => 7
 console.log(indexPrime(500)) //result => 3571
